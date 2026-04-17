@@ -1,0 +1,5 @@
+# oh-my-claudecode tooling state
+.omc/
+
+# macOS
+.DS_Store

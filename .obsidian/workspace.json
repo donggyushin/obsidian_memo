@@ -20,24 +20,23 @@
               "icon": "lucide-file",
               "title": "환영합니다!"
             }
-          }
-        ]
-      },
-      {
-        "id": "cb5b5f70f07d5cf0",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "462cf20a04afbac7",
+            "id": "41cf11f0f0971fc6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE study.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE study"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "환영합니다!.md",
+                "file": "CLAUDE study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "환영합니다! 의 백링크"
+              "title": "CLAUDE study 의 백링크"
             }
           },
           {
@@ -129,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "환영합니다!.md",
+                "file": "CLAUDE study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "환영합니다! 의 나가는 링크"
+              "title": "CLAUDE study 의 나가는 링크"
             }
           },
           {
@@ -172,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "환영합니다!.md",
+                "file": "CLAUDE study.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "환영합니다! 의 개요"
+              "title": "CLAUDE study 의 개요"
             }
           }
         ]
@@ -199,8 +198,13 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "479125abaaa65b7c",
+  "active": "41cf11f0f0971fc6",
   "lastOpenFiles": [
-    "환영합니다!.md"
+    "CLAUDE.md",
+    "스크린샷 2026-04-17 오전 10.29.53.png",
+    "스크린샷 2026-04-17 오전 10.28.02.png",
+    "환영합니다!.md",
+    "CLAUDE study.md",
+    "create a link.md"
   ]
 }

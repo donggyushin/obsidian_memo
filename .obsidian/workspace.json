@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE study.md",
+                "file": "Harness Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE study"
+              "title": "Harness Engineering"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 259.5,
     "collapsed": true
   },
   "right": {
@@ -186,20 +186,22 @@
   },
   "active": "41cf11f0f0971fc6",
   "lastOpenFiles": [
-    "스크린샷 2026-04-19 오전 10.12.09.png",
-    "스크린샷 2026-04-19 오전 10.03.32.png",
-    "스크린샷 2026-04-19 오전 10.02.48.png",
-    "스크린샷 2026-04-17 오후 6.32.40.png",
-    "스크린샷 2026-04-17 오후 6.21.40.png",
-    "스크린샷 2026-04-17 오후 5.29.01.png",
-    "스크린샷 2026-04-17 오후 5.28.40.png",
-    "스크린샷 2026-04-17 오후 5.23.32.png",
-    "스크린샷 2026-04-17 오후 5.21.24.png",
-    "스크린샷 2026-04-17 오후 5.20.38.png",
-    "스크린샷 2026-04-17 오후 3.21.17.png",
+    "스크린샷 2026-04-20 오후 5.30.10.png",
+    "Resources/스크린샷 2026-04-20 오후 5.16.41.png",
+    "Resources/스크린샷 2026-04-17 오전 10.28.02.png",
+    "Harness Engineering.md",
+    "Resources",
+    "Resources/스크린샷 2026-04-20 오후 5.12.35.png",
+    "CLAUDE study.md",
+    "Resources/스크린샷 2026-04-19 오전 10.12.09.png",
+    "Resources/스크린샷 2026-04-19 오전 10.03.32.png",
+    "Resources/스크린샷 2026-04-19 오전 10.02.48.png",
+    "Resources/스크린샷 2026-04-17 오후 6.32.40.png",
+    "Resources/스크린샷 2026-04-17 오후 6.21.40.png",
+    "Resources/스크린샷 2026-04-17 오후 5.29.01.png",
+    "Resources/스크린샷 2026-04-17 오후 5.28.40.png",
     "CLAUDE.md",
     "환영합니다!.md",
-    "CLAUDE study.md",
     "create a link.md"
   ]
 }

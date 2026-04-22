@@ -1,0 +1,17 @@
+# OMC
+.omc/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian (vault 로 여는 경우 로컬 상태는 커밋 안 함)
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~

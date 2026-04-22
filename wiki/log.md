@@ -35,3 +35,9 @@ Append-only 연대기. 각 항목은 `## [YYYY-MM-DD] <op> | <title>` 형식.
 - 갱신 (Source): [[sources/claude-code-2h-mastery]] (동일 저자 교차참조)
 - 갱신: `wiki/index.md` (8 → 14 페이지)
 - 미해결: [[entities/martin-fowler]] 의 "harness" · "garbage collection" 용어 귀속 1차 출처 미확인 (영상 저자의 주장에 의존), OpenAI 2026-02 블로그 URL 미제공 — 추후 lint 시 확인 플래그
+
+## [2026-04-22] lint
+- orphan 0 · stale 0 · 모순 0 · broken 3 · missing 4(유의미) · oversized 0 · gap 4
+- 리포트: [[syntheses/lint-2026-04-22]]
+- 최우선 조치: [[concepts/rag]] 생성 (broken link 해결 + llm-wiki-pattern 가독성 향상)
+- 다음 라운드: [[entities/andrej-karpathy]], Agent Teams 독립 페이지, WAT Framework 독립 페이지, Gap 4블록 웹검색 검증

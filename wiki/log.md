@@ -66,6 +66,27 @@
 - [[oh-my-claudecode]] 는 이 vault 에서 **실제 사용 중**(`.omc/` 디렉터리 확인).
 - 스크린샷 7 장 미해석 (이슈 #1 확장 대상).
 
+## [2026-04-22] ingest | CLAUDE study.md 스크린샷 14 장 OCR (이슈 #1)
+
+- 원본: `Resources/스크린샷 2026-04-{17,19} ....png` (14 장)
+- 컨텍스트: [[claude-code-study-notes]] ingest 시 텍스트 본문만 반영 → 임베드 스크린샷이 미해석으로 남아 [GH 이슈 #1](https://github.com/donggyushin/obsidian_memo/issues/1) 등록 → 본 작업으로 해소
+- 신규 페이지 (5):
+  - Concepts: [[compound-engineering]], [[trigger-keywords]]
+  - Entities: [[hooks]], [[agent-teams]], [[git-worktree]]
+- 갱신 페이지 (7):
+  - [[skills]] — BEFORE/AFTER, 프롬프트 vs Skills 비교, 폴더 구조, description 3 가지 조건, 만드는 두 방법 (스크린샷 5 장 통합)
+  - [[sub-agents]] — 4 가지 핵심 장점 + Do/Don't, [[agent-teams]] 링크
+  - [[claude-code]] — Hooks/Agent Teams/Git Worktree 신규 엔티티 링크 갱신
+  - [[wat-framework]] — A 섹션에 Self-Healing + 병렬 처리 도식, T 섹션에 도구 원자성 대비표 + 3 형태(Bash/MCP/Hooks)
+  - [[context-as-king]] — `CLAUDE.md` 안의 Mermaid 아키텍처 전술 섹션 추가
+  - [[plan-mode-workflow]] — "실전 워크플로우 4 단계" 섹션 + [[compound-engineering]] 링크
+  - [[claude-code-study-notes]] — 스크린샷 매핑 표 (14 → 통합 페이지) 로 갱신, 미해석 → 해석 완료
+- 핵심 발견:
+  - **[[compound-engineering]]** = 프로젝트 vs 글로벌 `claude.md` 분리 원칙. [[plan-mode-workflow]] 의 자연 확장
+  - **[[hooks]]** = [[harness-engineering]] 4 기둥 중 둘째(자동 교정 루프) 의 직접 구현체. [[trigger-keywords]] 와 보완 (이벤트 vs 키워드)
+  - **[[agent-teams]]** (COMING SOON) = [[sub-agents]] 의 양방향 메시 토폴로지 진화형. [[oh-my-claudecode|OMC]] `team` 스킬이 현재 우회 구현
+- 후속 탐구 아이디어: `claude-squad` (이 vault 의 worktree 환경) 의 [[git-worktree]] 와의 관계, Hooks JSON 구조 슬라이드 ingest, Agent Teams 출시 후 토폴로지 패턴 정리
+
 ## [2026-04-22] lint | 위키 전체 건강 검진 (20 페이지)
 
 - 검사 범위: sources/ 4, concepts/ 9, entities/ 7

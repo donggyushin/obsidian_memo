@@ -93,21 +93,26 @@ origin_ref: https://www.youtube.com/watch?v=vxEvo2BLM6A
 
 ## 임베드된 스크린샷 (14 개, Resources/)
 
-본문만으론 내용 미확정. 필요 시 별도 ingest 로 OCR·해석.
+✅ **2026-04-22 OCR 완료** (이슈 #1). 각 스크린샷은 아래 위키 페이지에 텍스트로 통합됨.
 
-- Trigger Keywords (l.12)
-- Compound Engineering (l.14)
-- 멀티 터미널·서브에이전트·팀즈 (l.76)
-- Mermaid 아키텍처 (l.81)
-- WAT Agents/Tools (l.120, 124)
-- Skills 상세 (l.130-137)
-- Sub-Agents (l.144)
-- Agent Teams (l.148)
-- Hooks (l.151-152)
-- Git worktree (l.160)
+| 스크린샷 (l.) | 내용 | 통합된 페이지 |
+|---|---|---|
+| Trigger Keywords (l.12) | `배포`/`ship` 워크플로우 | [[trigger-keywords]] (신규) |
+| Compound Engineering (l.14) | 프로젝트 vs 글로벌 `claude.md` | [[compound-engineering]] (신규) |
+| 멀티 터미널 (l.76) | (Sub-Agents 섹션과 통합) | [[sub-agents]] |
+| Mermaid 아키텍처 (l.81) | `CLAUDE.md` 안의 다이어그램 전술 | [[context-as-king]] |
+| WAT Agents (l.120) | Self-Healing + Sub-agent 병렬 | [[wat-framework]] (A 섹션) |
+| WAT Tools (l.124) | 도구 원자성 + 3 가지 형태 | [[wat-framework]] (T 섹션) |
+| Skills (l.130-137, ×5) | BEFORE/AFTER, 비교, 폴더, description, 데모 | [[skills]] |
+| Sub-Agents (l.144) | 4 가지 장점 + Do/Don't | [[sub-agents]] |
+| Agent Teams (l.148) | 단방향 → 양방향 메시 (COMING SOON) | [[agent-teams]] (신규) |
+| Hooks (l.151-152, ×2) | 동작 흐름, 만드는 두 방법 | [[hooks]] (신규) |
+| Git worktree (l.160) | `claude -w` 1 줄 | [[git-worktree]] (신규) |
+
+→ 추가 [[plan-mode-workflow]] "실전 워크플로우 4 단계" 섹션도 본 노트의 워크플로우 도식(l.76 인접) 에서 파생.
 
 ## 이 소스에서 파생된 위키 페이지
 
-- Concepts: [[plan-mode-workflow]], [[wat-framework]], [[context-as-king]]
-- Entities: [[claude-code]], [[skills]], [[sub-agents]], [[mcp]]
-- Cross-ref: [[llm-wiki-pattern]] (세컨드 브레인 섹션 l.62-74)
+- Concepts: [[plan-mode-workflow]], [[wat-framework]], [[context-as-king]], [[compound-engineering]], [[trigger-keywords]]
+- Entities: [[claude-code]], [[skills]], [[sub-agents]], [[mcp]], [[hooks]], [[agent-teams]], [[git-worktree]]
+- Cross-ref: [[llm-wiki-pattern]] (세컨드 브레인 섹션 l.62-74), [[harness-engineering]] (Hooks·Trigger Keywords 의 사상적 부모)

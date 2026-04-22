@@ -26,6 +26,8 @@ updated: 2026-04-22
 - [[advisor-pattern]] — Executor(Sonnet) 주도 + Advisor(Opus) 조언 Bottom-up 아키텍처 (updated: 2026-04-22)
 - [[model-routing]] — 판단 밀도에 따라 모델 등급을 동적 배분하는 일반 원칙 (updated: 2026-04-22)
 - [[harness-engineering]] — AI 통제·규율 엔지니어링. 4 기둥(컨텍스트·교정루프·도구경계·피드백루프) (updated: 2026-04-22)
+- [[compound-engineering]] — 프로젝트 vs 글로벌 `claude.md` 분리. 팀 결과 복리 효과 (updated: 2026-04-22)
+- [[trigger-keywords]] — 짧은 키워드 → 다단계 워크플로우 자동 실행 패턴 (updated: 2026-04-22)
 
 ## Entities (사람·도구·조직)
 
@@ -36,13 +38,16 @@ updated: 2026-04-22
 - [[sub-agents]] — Claude Code 의 독립 컨텍스트 에이전트. `/agents` 로 생성. Advisor 와 대조 (updated: 2026-04-22)
 - [[mcp]] — Model Context Protocol. 외부 시스템 연결, 양날의 검 (updated: 2026-04-22)
 - [[oh-my-claudecode]] — 범용 하네스 오픈소스. 이 vault 에서 실사용 중 (`.omc/`) (updated: 2026-04-22)
+- [[hooks]] — Claude Code 의 이벤트 기반 자동 실행. Harness 둘째 기둥의 구현 (updated: 2026-04-22)
+- [[agent-teams]] — 다중 에이전트 양방향 협업 토폴로지 (COMING SOON) (updated: 2026-04-22)
+- [[git-worktree]] — 브랜치별 작업 트리 + Claude 인스턴스. `claude -w` 1 줄 (updated: 2026-04-22)
 
 ---
 
 ## Stats
 
 - Sources: 4
-- Concepts: 9
-- Entities: 7
-- **Total pages**: 20
-- Last ingest: 2026-04-22 — [[harness-engineering-note]]
+- Concepts: 11
+- Entities: 10
+- **Total pages**: 25
+- Last ingest: 2026-04-22 — [[claude-code-study-notes]] 스크린샷 14 장 OCR (이슈 #1)

@@ -52,3 +52,9 @@ Append-only 연대기. 각 항목은 `## [YYYY-MM-DD] <op> | <title>` 형식.
 - 갱신: `wiki/index.md` (15 → 21 페이지)
 - 도메인: 새 섬 진입 — 게임/PRNG/확률. 기존 AI·하네스 도메인과 교차 참조 없음 (의도적 분리).
 - 미해결: 메이플 실제 PRNG 함수 비공개 (rand 가정은 영상 저자 명시), "17% 경계" 수치 해석적 재산출 여지.
+
+## [2026-04-23] lint
+- orphan 0 · stale 0 · 모순 0 · broken 3(이월) · missing 0(신규) · oversized 0 · gap 5 blocks
+- 리포트: [[syntheses/lint-2026-04-23]]
+- 평가: 신규 ingest 6페이지 orphan 0 / broken 신규 0 / 모순 0 — 새 도메인 자체 클러스터 내부 연결성 양호.
+- 최우선 조치: 이월 broken 3건 중 [[concepts/rag]] 우선 생성 권고. 나머지 2건(memex, andrej-karpathy) 후속 ingest 시 자연 생성 대기.

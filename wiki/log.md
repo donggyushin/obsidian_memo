@@ -41,3 +41,14 @@ Append-only 연대기. 각 항목은 `## [YYYY-MM-DD] <op> | <title>` 형식.
 - 리포트: [[syntheses/lint-2026-04-22]]
 - 최우선 조치: [[concepts/rag]] 생성 (broken link 해결 + llm-wiki-pattern 가독성 향상)
 - 다음 라운드: [[entities/andrej-karpathy]], Agent Teams 독립 페이지, WAT Framework 독립 페이지, Gap 4블록 웹검색 검증
+
+## [2026-04-23] ingest | 20년 만에 밝혀진 메이플 확률문제의 원인
+- 소스: `raw/20년 만에 밝혀진 메이플 확률문제의 원인 [RVngRYqs7kA].ko.vtt` (yt-dlp 자동자막)
+- 저자: 코딩애플 (https://www.youtube.com/@codingapple)
+- URL: https://youtu.be/RVngRYqs7kA
+- 생성 (Source): [[sources/maple-modulo-bias]]
+- 생성 (Concepts): [[concepts/modulo-bias]], [[concepts/prng-rand]]
+- 생성 (Entities): [[entities/coding-apple]], [[entities/maplestory]], [[entities/nexon]]
+- 갱신: `wiki/index.md` (15 → 21 페이지)
+- 도메인: 새 섬 진입 — 게임/PRNG/확률. 기존 AI·하네스 도메인과 교차 참조 없음 (의도적 분리).
+- 미해결: 메이플 실제 PRNG 함수 비공개 (rand 가정은 영상 저자 명시), "17% 경계" 수치 해석적 재산출 여지.

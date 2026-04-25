@@ -3,8 +3,8 @@ title: "CLAUDE.md — 프로젝트 컨텍스트 허브"
 type: concept
 tags: [claude-code, context, configuration]
 created: 2026-04-22
-updated: 2026-04-23
-sources: [claude-code-2h-mastery, harness-engineering-era, jimcoding-claude-rules]
+updated: 2026-04-25
+sources: [claude-code-2h-mastery, harness-engineering-era, jimcoding-claude-rules, jay-choi-9-tips]
 aliases: ["CLAUDE.md", "클로드 MD", "프로젝트 설정 파일", "AGENTS.md"]
 ---
 
@@ -12,7 +12,12 @@ aliases: ["CLAUDE.md", "클로드 MD", "프로젝트 설정 파일", "AGENTS.md"
 
 ## 핵심 요약
 
-`CLAUDE.md` 는 프로젝트 루트에 두는 **Claude 전용 컨텍스트 파일**. Claude 는 매 세션 시작 시 자동으로 이 파일을 로드하므로, 프로젝트의 규칙·아키텍처·도메인 지식을 한 곳에 모아 두면 **매번 파일을 탐색하는 토큰 소모를 막을 수 있다**. 다만 이 파일이 비대해지면 반대 효과가 나므로 **300줄 상한**을 유지하고, 상세 내용은 [[concepts/context-engineering|lazy loading]] 으로 별도 파일에 분리한다.
+`CLAUDE.md` 는 프로젝트 루트에 두는 **Claude 전용 컨텍스트 파일**. Claude 는 매 세션 시작 시 자동으로 이 파일을 로드하므로, 프로젝트의 규칙·아키텍처·도메인 지식을 한 곳에 모아 두면 **매번 파일을 탐색하는 토큰 소모를 막을 수 있다**. 다만 이 파일이 비대해지면 반대 효과가 나므로 길이 상한을 유지하고, 상세 내용은 [[concepts/context-engineering|lazy loading]] 으로 별도 파일에 분리한다.
+
+> [!note] 길이 권장
+> - **이상적**: 150~200줄 안에서 끝낼 것 ([[sources/jay-choi-9-tips]])
+> - **상한**: 300줄
+> - **이유**: Claude 는 CLAUDE.md 의 **약 80% 정도만 따른다**고 알려져 있다. 길수록 중요 규칙이 묻힌다 — [[concepts/fresh-context-principle]] 의 정적 파일 단위 적용.
 
 ## 생성 방법
 
@@ -110,6 +115,7 @@ CLAUDE.md 안에 워크플로우를 키워드로 등록 가능:
 
 - [[concepts/harness-engineering]] — 1번째 기둥 실체
 - [[concepts/context-engineering]] — lazy loading, 세컨드 브레인, 세션 위생
+- [[concepts/fresh-context-principle]] — 80% 준수 통념의 상위 원칙
 - [[concepts/conditional-rule-loading]] — `.claude/rules/*.md` + glob 로 파일 타입별 자동 로드
 - [[concepts/plan-mode]] — Plan 모드에서 CLAUDE.md 의 영향
 - [[concepts/claude-skills]] — Skills 와의 역할 분담
@@ -120,3 +126,4 @@ CLAUDE.md 안에 워크플로우를 키워드로 등록 가능:
 - [[sources/claude-code-2h-mastery]] — 입문편 전반, 실전편 "컨텍스트 관리" 섹션
 - [[sources/harness-engineering-era]] — Context Files 기둥으로의 재해석
 - [[sources/jimcoding-claude-rules]] — 비대화 실패 모드 + `.claude/rules` 조건부 로딩 사례
+- [[sources/jay-choi-9-tips]] — *"Claude 는 CLAUDE.md 의 80% 정도만 따른다"*, 150~200줄 권장

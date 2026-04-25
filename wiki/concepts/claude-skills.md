@@ -3,8 +3,8 @@ title: "Claude Skills — AI 업무 매뉴얼"
 type: concept
 tags: [claude-code, skills, automation]
 created: 2026-04-22
-updated: 2026-04-23
-sources: [claude-code-2h-mastery]
+updated: 2026-04-25
+sources: [claude-code-2h-mastery, jay-choi-9-tips]
 aliases: ["Skills", "스킬", "skill.md", "Agent Skills"]
 ---
 
@@ -123,6 +123,19 @@ Claude 플러그인 마켓플레이스에서 `skill-creator` 설치 후:
 
 → Skill Creator 가 자동 트리거되어 `skill.md` 생성. 처음부터 완벽할 필요 없이 **점진적으로 정교화**.
 
+## 채택 순서 — 남의 스킬 먼저
+
+[[sources/jay-choi-9-tips]] 의 권고 순서:
+
+1. **남이 만든 좋은 스킬을 먼저** 가져다 쓴다. GitHub 에 유용한 스킬 多.
+2. 본인이 **반복하는 작업이 있을 때만** 자기 스킬을 만든다.
+3. 처음부터 풀 세팅하지 말 것 — 보리스([[entities/boris-cherny]]) 도 vanilla 사용. → [[concepts/harness-engineering#vanilla-우선-원칙]].
+
+> 스킬은 유지 비용이 거의 없으면서도 유용하기 때문에 어느 선에선 자산이라고도 할 수 있습니다.  
+> — [[sources/jay-choi-9-tips]]
+
+명시적으로 시켜야 작동: 스킬을 만들어 놨어도 Claude 가 자동으로 쓴다는 보장은 없다. 트리거를 위해 description 의 명확성 (위 섹션) + 사용자의 명시적 호출 ([[concepts/plan-mode#명시적-지시-원칙]]) 모두 필요.
+
 ## 저장 범위
 
 | 위치 | 사용 범위 |
@@ -143,11 +156,14 @@ Claude Code 내장 스킬. 예: `simplify` (코드 품질 자동 검토). 자주
 ## 관련 페이지
 
 - [[concepts/context-engineering]] — 2단계 로딩의 토큰 절약 원리
+- [[concepts/fresh-context-principle]] — 도구 단위 적용 사례
 - [[concepts/claude-md]] — 항상 로드되는 규칙의 영역
 - [[concepts/conditional-rule-loading]] — 다른 트리거 방식 (파일 패턴 매칭 vs description 의미 해석)
 - [[concepts/subagents]] — 실행 중 격리가 목적일 때
 - [[concepts/hooks]] — 이벤트 기반 자동화 (Skills 는 요청 기반)
+- [[entities/boris-cherny]] — vanilla 우선 원칙
 
 ## 출처
 
 - [[sources/claude-code-2h-mastery]] — 심화편 "스킬" 섹션
+- [[sources/jay-choi-9-tips]] — 채택 순서 (남의 스킬 먼저) + 명시적 호출 원칙

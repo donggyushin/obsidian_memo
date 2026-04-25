@@ -79,3 +79,15 @@ Append-only 연대기. 각 항목은 `## [YYYY-MM-DD] <op> | <title>` 형식.
 - 갱신: `wiki/index.md` (23 → 26 페이지)
 - 도메인: Claude Code 실전 메모리 관리 — 기존 AI·하네스 클러스터 확장. 오픈소스 레퍼런스 (Trigger.dev, CockroachDB) 는 1회 언급으로 entity 생성 보류.
 - 미해결: Reddit 47K 단어 원글 URL · Anthropic 공식 frontmatter 필드명 (`globs`/`applyTo` 등) — 두 건 모두 `[!question]` 블록으로 기록. 공식 docs 교차 확인 시 보강.
+
+## [2026-04-25] ingest | 클로드 코드 800시간 쓰고 깨달은 9가지 꿀팁
+- 소스: `raw/클로드 코드 800시간 쓰고 깨달은 9가지 꿀팁 [hXlB1QstQ-Y].ko.vtt` (yt-dlp 자동자막)
+- 저자: Jay Choi · 인디해커 라이프
+- URL: https://youtu.be/hXlB1QstQ-Y (2026-04-23 업로드, 8분 30초)
+- 생성 (Source): [[sources/jay-choi-9-tips]]
+- 생성 (Concepts): [[concepts/fresh-context-principle]] (한 줄 표어 페이지화 — 4단계 줌으로 다른 기법 묶음), [[concepts/rewind-pattern]] (Esc×2 + /clear + /compact 방향 지정), [[concepts/reward-hacking]] (검증 루프 악용 — 테스트 자체를 코드에 맞춰 수정)
+- 생성 (Entities): [[entities/jay-choi]], [[entities/boris-cherny]] (Claude Code 창시자, vanilla 일화 + 검증 1순위 발언 출처)
+- 갱신 (Concepts): [[concepts/claude-md]] (80% 준수 통념 + 150~200줄 권장), [[concepts/plan-mode]] (플랜 적극 편집 + 명시적 지시 원칙), [[concepts/claude-skills]] (남의 스킬 먼저 채택 순서), [[concepts/context-engineering]] (리와인드 우선 + /compact 방향 지시), [[concepts/harness-engineering]] (vanilla 우선 원칙 + reward-hacking 연결)
+- 갱신: `wiki/index.md` (26 → 32 페이지)
+- 도메인: Claude Code 실전 사용 — 기존 클러스터(claude-md, plan-mode, skills, context-engineering, harness) 깊이 보강. 첫 인디 개발자 회고 시점 소스.
+- 미해결: 보리스 X 게시 원문 URL · Anthropic 공식 *"AI 자율 ≠ 인간 검증 패키지"* 인용 1차 출처 · Claude Code 팀 *"리와인드 = 단 하나의 습관"* 발언 1차 출처 · *"디스텍 스퍼파"* 추정 스킬 리포지토리 정확 명칭 — 4건 모두 `[!question]` 블록 기록. 후속 lint 시 교차 확인.
